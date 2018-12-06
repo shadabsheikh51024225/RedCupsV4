@@ -19,8 +19,6 @@ public class SplashActivity extends Activity {
 
         // to remove the action bar from the specific activity
 
-        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
-        getActionBar().hide();
 
 
 
@@ -30,7 +28,7 @@ public class SplashActivity extends Activity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(SplashActivity.this,MainActivity.class);
+                Intent intent=new Intent(SplashActivity.this,LicenceAgreement.class);
                 startActivity(intent);
                 finish();
             }
