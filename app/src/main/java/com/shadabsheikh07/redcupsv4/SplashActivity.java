@@ -14,6 +14,7 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // for the git hub change
 
 
         // to remove the action bar from the specific activity
