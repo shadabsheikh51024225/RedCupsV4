@@ -10,6 +10,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // make second git hub test comit
+
     }
+
+    int x ;
+    int y;
+
+
+    // make second git hub test comit
 }
+
